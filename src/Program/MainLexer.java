@@ -16,7 +16,7 @@ public class MainLexer {
 		
 		String codigo = "C:/Workspace/Java JDK/Projeto Compiladores/arquivo.txt"; // Substitua "arquivo.txt" pelo caminho do seu arquivo
 
-	    try (BufferedReader br = new BufferedReader(new FileReader(codigo))) {
+	    try ( BufferedReader br = new BufferedReader(new FileReader(codigo))) {
 	    	
 	    	StringBuilder conteudo = new StringBuilder();
             String linha;
