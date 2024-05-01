@@ -33,7 +33,6 @@ public class Lexer {
 		afds.add(new Numero());
 		afds.add(new Flutuante());
 		afds.add(new ID());
-		
 	}
 	
 	public void skipWhiteSpace(){
@@ -63,6 +62,7 @@ public class Lexer {
 			throw new RuntimeException("token not regognized " + codigo.current());
 		}
 		tokens.add(new Token("EOF", "$"));
+		
 		return tokens;
 	}
 }

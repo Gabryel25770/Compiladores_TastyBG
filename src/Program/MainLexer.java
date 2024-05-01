@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.List;
 
 import Entities.Lexer;
+import Entities.Parser;
 import Entities.Token;
 
 public class MainLexer {
@@ -33,6 +34,8 @@ public class MainLexer {
 			for(Token t: tokens){
 				System.out.println(t);
 			}
+			Parser parser = new Parser(tokens);
+			parser.main();
             
 	    } catch (IOException e) {
 	    	System.err.println("Erro ao ler o arquivo: " + e.getMessage());
