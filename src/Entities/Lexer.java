@@ -27,6 +27,7 @@ public class Lexer {
 		afds.add(new Acrescimo());
 		afds.add(new Decrescimo());
 		afds.add(new Comparacao());
+		afds.add(new Diferente());
 		afds.add(new MaiorIgual());
 		afds.add(new MenorIgual());
 		afds.add(new Operador());
