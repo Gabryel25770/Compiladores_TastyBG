@@ -18,6 +18,12 @@ public class Lexer {
 		afds.add(new Float());
 		afds.add(new Str());
 		afds.add(new Boolean());
+		afds.add(new Texto());
+		afds.add(new Trues());
+		afds.add(new Falses());
+		afds.add(new Inputs());
+		afds.add(new Prints());
+		afds.add(new Whiles());
 		afds.add(new If());
 		afds.add(new Ifelse());
 		afds.add(new Else());
@@ -37,7 +43,7 @@ public class Lexer {
 	}
 	
 	public void skipWhiteSpace(){
-		while(codigo.current() == ' ' || codigo.current() == '\n'){
+		while(codigo.current() == ' ' || codigo.current() == '	' || codigo.current() == '\n'){
 			codigo.next();
 		}
 	}

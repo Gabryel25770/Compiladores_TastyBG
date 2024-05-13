@@ -19,15 +19,20 @@ public class Flutuante extends AFD{
 	private String readNumber(CharacterIterator codigo) {
 		String number = "";
 		int count = 0;
-		while (Character.isDigit(codigo.current()) || codigo.current() == '.') {
-			if(codigo.current() == '.') {
-				count++;
-			}
+		if(Character.isDigit(codigo.current())) {
 			number += codigo.current();
 			codigo.next();
-		}
-		if(count == 1) {
-			return number;
+			while (Character.isDigit(codigo.current()) || codigo.current() == '.') {
+				if(codigo.current() == '.') {
+					count++;
+				}
+				number += codigo.current();
+				codigo.next();
+			}
+			if(count == 1) {
+				return number;
+			}
+			return null;
 		}
 		return null;
 	}
