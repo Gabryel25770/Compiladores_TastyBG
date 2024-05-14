@@ -15,7 +15,7 @@ public class Else extends AFD{
 					return null;
 				}
 			}
-			if(codigo.current()== ' ' || codigo.current() == '\n' || codigo.current() == ';' || codigo.current() == CharacterIterator.DONE ){
+			if(codigo.current()== ' ' || codigo.current() == '\n' || codigo.current() == ';' || codigo.current() == '(' || codigo.current() == ')' || codigo.current() == CharacterIterator.DONE ){
 				return new Token("RESERVADA_ELSE", "zak");
 			}
 			

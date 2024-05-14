@@ -31,6 +31,8 @@ public class Parser {
 				+ "\r\n"
 				+ "	public static void main(String[] args) {\r\n"
 				+ "		Scanner sc = new Scanner(System.in);\r\n"
+				+ "		boolean real = true;\r\n"
+				+ "		boolean barca = false;\r\n"
 				+ "", true);
 		token = nextToken();
 		if(recursao()) {
@@ -214,7 +216,7 @@ public class Parser {
 	}
 	
 	public boolean condicao() {
-		if(matchT("ID", token.lexema, false) && operador() && matchT("NUMERO", " " + token.lexema, false)) {
+		if(matchT("ID", token.lexema, false) && operador() && valor()) {
 			return true;
 		}
 		erro("condicao");
@@ -253,7 +255,7 @@ public class Parser {
 	}
 	
 	public boolean operador() {
-		if(matchL(">", " " + token.lexema, false) || matchL("<", " " + token.lexema, false) || matchL("==", " " + token.lexema, false) || matchL(">=", " " + token.lexema, false) || matchL("<=", " " + token.lexema, false) || matchL("<>", " !=", false)) {
+		if(matchL(">", " " + token.lexema + " ", false) || matchL("<", " " + token.lexema + " ", false) || matchL("==", " " + token.lexema + " ", false) || matchL(">=", " " + token.lexema + " ", false) || matchL("<=", " " + token.lexema + " ", false) || matchL("<>", " != ", false)) {
 			return true;
 		}
 		return false;

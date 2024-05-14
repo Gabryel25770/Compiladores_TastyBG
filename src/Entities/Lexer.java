@@ -14,13 +14,13 @@ public class Lexer {
 		this.codigo = new StringCharacterIterator(codigo);
 		tokens = new ArrayList<>();
 		afds = new ArrayList<>();
+		afds.add(new Trues());
+		afds.add(new Falses());
 		afds.add(new Int());
 		afds.add(new Float());
 		afds.add(new Str());
 		afds.add(new Boolean());
-		afds.add(new Texto());
-		afds.add(new Trues());
-		afds.add(new Falses());
+		afds.add(new Texto());	
 		afds.add(new Inputs());
 		afds.add(new Prints());
 		afds.add(new Whiles());

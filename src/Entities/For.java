@@ -15,7 +15,7 @@ public class For extends AFD{
 				}
 			}
 			
-			if(codigo.current()== ' ' || codigo.current() == '\n' || codigo.current() == ';' || codigo.current() == CharacterIterator.DONE){
+			if(codigo.current()== ' ' || codigo.current() == '\n' || codigo.current() == '(' || codigo.current() == ')' || codigo.current() == ';' || codigo.current() == CharacterIterator.DONE){
 				return new Token("RESERVADA_FOR", "roof");
 			}
 			

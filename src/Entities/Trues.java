@@ -2,8 +2,7 @@ package Entities;
 
 import java.text.CharacterIterator;
 
-	public class Trues extends AFD{
-		
+public class Trues extends AFD{
 		@Override
 		public Token evaluate(CharacterIterator codigo) {
 			String res = "real";
@@ -15,7 +14,7 @@ import java.text.CharacterIterator;
 					return null;
 				}
 			}
-			if(codigo.current()== ' ' || codigo.current() == '\n' || codigo.current() == ';' || codigo.current() == CharacterIterator.DONE){
+			if(codigo.current()== ' ' || codigo.current() == '\n' || codigo.current() == '(' || codigo.current() == ')' || codigo.current() == ';' || codigo.current() == CharacterIterator.DONE){
 				return new Token("BOOLEAN_TRUE", "real");
 			}
 			

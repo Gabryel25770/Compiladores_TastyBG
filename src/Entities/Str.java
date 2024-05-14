@@ -18,7 +18,7 @@ public class Str extends AFD{
 				return null;
 			}
 		}
-		if(codigo.current()== ' ' || codigo.current() == '\n' || codigo.current() == ';' || func(list, codigo.current())){
+		if(codigo.current()== ' ' || codigo.current() == '\n' || codigo.current() == '(' || codigo.current() == ')' || codigo.current() == ';' || func(list, codigo.current())){
 			return new Token("RESERVADA_STRING", "atoz");
 		}
 		
