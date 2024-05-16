@@ -1,7 +1,9 @@
 package Program;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
@@ -17,7 +19,7 @@ public class MainLexer {
 		
 		String codigo = "C:/Workspace/Java JDK/Projeto Compiladores/arquivo.txt"; // Substitua "arquivo.txt" pelo caminho do seu arquivo
 
-	    try ( BufferedReader br = new BufferedReader(new FileReader(codigo))) {
+	    try ( BufferedReader br = new BufferedReader(new FileReader(codigo)); BufferedWriter writer = new BufferedWriter(new FileWriter("C:/Workspace/Java JDK/Projeto Compiladores/output.java"))) {
 	    	
 	    	StringBuilder conteudo = new StringBuilder();
             String linha;
@@ -35,7 +37,7 @@ public class MainLexer {
 				System.out.println(t);
 			}
 			Parser parser = new Parser(tokens);
-			parser.main();
+			writer.write(parser.main());
             
 	    } catch (IOException e) {
 	    	System.err.println("Erro ao ler o arquivo: " + e.getMessage());

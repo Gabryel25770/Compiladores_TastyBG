@@ -5,6 +5,7 @@ import java.util.List;
 public class Parser {
 	List<Token> tokens;
 	Token token;
+	String retorno = "";
 	
 	public Parser(List<Token> tokens) {
 		this.tokens = tokens;
@@ -23,7 +24,7 @@ public class Parser {
 		System.exit(0); //encerra o programa
 	}
 	
-	public void main() {
+	public String main() {
 		printa("import java.util.Scanner;\r\n"
 				+ "\r\n"
 				+ "\r\n"
@@ -46,6 +47,7 @@ public class Parser {
 				erro("");
 			}
 		}
+		return retorno;
 	}
 	
 	public boolean recursao() {
@@ -187,7 +189,7 @@ public class Parser {
 	}
 	
 	public boolean ifelse() {
-		if(matchL("ozak", "if else", false) && matchL("(", token.lexema, false) && condicao() && matchL(")", token.lexema, false) && matchL("{", token.lexema, true) && expressao() && matchL("}", token.lexema, true)){
+		if(matchL("ozak", "if else", false) && matchL("(", token.lexema, false) && condicao() && matchL(")", token.lexema, false) && matchL("{", token.lexema, true) && recursao() && matchL("}", token.lexema, true)){
 			return true;
 		}
 		erro("elseif");
@@ -195,7 +197,7 @@ public class Parser {
 	}
 	
 	public boolean elses() {
-		if(matchL("zak", "else", false) && matchL("{", token.lexema, true) && expressao() && matchL("}", token.lexema, true)){
+		if(matchL("zak", "else", false) && matchL("{", token.lexema, true) && recursao() && matchL("}", token.lexema, true)){
 			return true;
 		}
 		erro("else");
@@ -299,8 +301,10 @@ public class Parser {
 	public void printa(String palavra, boolean quebra) {
 		if(quebra){
 			System.out.println(palavra);
+			retorno += palavra + "\n";
 		}else {
 			System.out.print(palavra);
+			retorno += palavra;
 		}		
 	}
 }
