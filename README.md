@@ -20,11 +20,11 @@
 <p align="center">Após a a execução do MainLexer.java, ele irá gerar um arquivo output.java que será compilado e executando com a execução do arquivo run.bat</p>
 
 
-##Instruções da linguagem
+## Instruções da linguagem
 <p align="center">-Não é necessário nenhuma identação, apenas para fins de organização.</p>
 <p align="center">-Todo fim de comando deve conter ";" (ponto e vírgula), com exceção de estruturas de repetição ou condição.</p>
 <p align="center">-Ao realizar um comentário, seguido de um "//", deve haver uma string entre aspas. Exemplo: (//"comentário").</p>
 
-##Documentação
+## Documentação
 ### Atribuição
 
