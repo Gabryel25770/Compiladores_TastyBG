@@ -10,8 +10,8 @@
  <a href="#roadmap">Instruções da linguagem</a> • 
  <a href="#tecnologias">Documentação</a> • 
  <a href="#contribuicao">Gramáticas</a> •
- <a href="#contribuicao">Exexplo de Código</a> •
- <a href="#licenc-a">Autores</a> • 
+ <a href="#contribuicao">Exemplo de Código</a> •
+ <a href="#licenc-a">Autores</a>  
 </p>
 
 
@@ -27,4 +27,12 @@
 
 ## Documentação
 ### Atribuição
+<p align="center">Deve ser composta por uma palavra reservada referente ao valor da váriavel, um nome identificado da variável, um sinal de igual "=", um valor referente a atribuição e encerrado por pontoe vírgula ";".</p>
+<p align="center">-As palavras disponíveis são:</p>
+| Palavra reservada | Tipo do valor |
+| ------------- | ------------- |
+| numz  | número inteiros [..., -1, 0, 1, ...]  |
+| floq  | número flutuantes [..., -1.7, 0.0, 3.8, ...]  |
+| atoz | caracteres alfanuméricos ["olá", "senha123", "14", ...] |
+| io  | valores booleanos [real(true), barca(false)]  |
 
