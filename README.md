@@ -103,7 +103,17 @@
 
 |                    Exemplo                    	|
 |:---------------------------------------------	|
-| roof(numz i = 0; i < 10; i = i + 1){<br>//"Trecho de código"<br>}} 	|
+| roof(numz i = 0; i < 10; i = i + 1){<br>//"Trecho de código"<br>} 	|
+
+### While
+<p>Deve ser composto pela palavra reservada "tiziu", parênteses aberto "(", uma condição, parênteses fechado ")", chaves aberta "{", seu trecho de código, e finalizado com chaves fechada "}".</p>
+
+<p>- Exemplo de implementação:</p>
+
+|                    Exemplo                    	|
+|:---------------------------------------------	|
+| tiziu(i < 10){<br>//"Trecho de código"<br>} 	|
+
 
 
 
