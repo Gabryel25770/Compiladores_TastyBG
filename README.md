@@ -81,6 +81,7 @@
 <p>Semelhante a sintaxe do "If", porém a palavra reservada será "ozak" dessa vez. <br /> Deve haver ao menos um "If" antes de um "Else If", e pode haver outros "Else Ifs", um "Else" ou nada depois.</p>
 
 <p>- Exemplos de implementações:</p>
+
 |           Exemplo sem nada após          |          Exemplo com mais de um "Else If"          |
 |:------------------------------------------------:|:----------------------------------------:|
 |            oz(varnum == 3){<br>//"Trecho de código"<br>}<br>ozak(varnum == 4){<br>//"Trecho de código"<br>}          |       oz(varnum == 3){<br>//"Trecho de código"<br>}<br>ozak(varnum == 4){<br>//"Trecho de código"<br>}<br>ozak(varnum == 5){<br>//"Trecho de código"<br>}     |
