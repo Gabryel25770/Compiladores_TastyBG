@@ -72,9 +72,10 @@
 #### If
 <p>Deve ser composta pela palavra reservada "oz", parênteses aberto "(", uma condição (ID ou valor, sinal de comparação, mais um ID ou valor), parêntes fechado ")", chaves aberta "{", estrutura de código, e finalizado por uma chaves fechada "}".</p>
 <p>- Exemplo de implementação</p>
-|                 Exemplo                 |
-|:---------------------------------------:|
-| oz(varnum == 3){ //"Trecho de código" } |
+
+|                    Exemplo                    	|
+|:---------------------------------------------:	|
+| oz(varnum == 3){<br>//"Trecho de código"<br>} 	|
 
 
 
