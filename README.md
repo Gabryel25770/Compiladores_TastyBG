@@ -37,7 +37,7 @@
 |        atoz       | Caracteres alfanuméricos ["olá", "senha123", "14", ...] |
 |         io        |       Valores booleanos [real(true), barca(false)]      |
 
-<p>- Aqui vai um exemplo:</p>
+<p>- Aqui vai alguns exemplo:</p>
 
 |           Exemplos          |
 |:---------------------------:|
@@ -51,11 +51,23 @@
 ### Inputs e Prints
 #### Input
 <p>Deve ser composto primeiramente por um ID, podendo conter uma atribuição, um sinal de igua "=", depois pela palavra reservada "caption", seguido to tipo da variável que deseja recer, e pra finalizar um abre e fecha parênteses "()". </p>
-<p>- Aqui vai um exemplo:</p>
+<p>- Aqui vai dois exemplo:</p>
 
 |           Exemplo apenas com atribuição          |          Exemplo com Declaração          |
 |:------------------------------------------------:|:----------------------------------------:|
-|            vartext = caption atoz ();            |       numz varnum = caption numz ();      |
+|            vartext = caption atoz ();            |       numz varnum = caption numz ();     |
+
+#### Print
+<p>Deve ser composto pela palavra reservada "receba", parênteses aberto "(", um valor (numero, booleano, texto ou um ID), Parênteses fechado ")", e finalizado com um ponto e vírgula ";".</p>
+
+<p>- Aqui vai alguns exemplo:</p>
+
+|           Exemplos          |
+|:---------------------------:|
+|          receba(2);         |
+|     receba("Parabéns!");    |
+|       receba(varboo);       |
+
 
 
 
