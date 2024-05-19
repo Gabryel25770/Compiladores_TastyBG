@@ -28,7 +28,7 @@
 ## Documentação
 ### Atribuição
 <p>Deve ser composta por uma palavra reservada referente ao valor da váriavel, um nome identificado da variável, um sinal de igual "=", um valor referente a atribuição e encerrado por pontoe vírgula ";".</p>
-<p>-As palavras disponíveis são:</p>
+<p>- As palavras disponíveis são:</p>
 
 | Palavra Reservada |                      Tipo do valor                      |
 |:-----------------:|:-------------------------------------------------------:|
@@ -36,4 +36,14 @@
 |        floq       |      Números flutuantes [..., -1.7, 0.0, 3.8, ...]      |
 |        atoz       | Caracteres alfanuméricos ["olá", "senha123", "14", ...] |
 |         io        |       Valores booleanos [real(true), barca(false)]      |
+
+<p>- Aqui vai um exemplo:</p>
+
+|           Exemplos          |
+|:---------------------------:|
+|       numz varnum = 2;      |
+|      floq varflo = 6.9;     |
+| atoz vartext = "Boa noite!" |
+|      io varboo = real;      |
+
 
