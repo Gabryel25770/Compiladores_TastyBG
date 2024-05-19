@@ -92,9 +92,18 @@
 
 <p>- Exemplo de implementação:</p>
 
-|          Exemplo com mais de um "Else If"          |
+|          Exemplo          |
 |:----------------------------------------|
-|       oz(varnum == 3){<br>//"Trecho de código"<br>}ozak(varnum == 4){<br>//"Trecho de código"<br>}ozak(varnum == 5){<br>//"Trecho de código"<br>}zak{<br>//"Trecho de código<br>}     |
+|       oz(varnum == 3){<br>//"Trecho de código"<br>}ozak(varnum == 4){<br>//"Trecho de código"<br>}zak{<br>//"Trecho de código<br>}     |
+
+### For
+<p>Deve ser composto pela palavra reservada "roof", parênteses aberto "(", uma declaração como já foi ensinado (não podendo haver inputs nessa declaração), ponto e vírgula ";", uma condição, mais um ponto e vírgula, uma expressão matemática(geralmente um incremento ou decremento), parênteses fechado ")", chaves aberta "{", seu trecho de código, e finalizado com chaves fechada "}".</p>
+
+<p>- Exemplo de implementação:</p>
+
+|                    Exemplo                    	|
+|:---------------------------------------------	|
+| roof(numz i = 0; i < 10; i = i + 1){<br>//"Trecho de código"<br>}} 	|
 
 
 
