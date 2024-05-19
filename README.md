@@ -6,7 +6,7 @@
 <p> Essa linguagem foi desenvolvida em JAVA e traduzida também para JAVA, segue a documentação.</p>
 
 <p align="center">
- <a href="#objetivo">Execução</a> •
+ <a href="https://github.com/Gabryel25770/Compiladores_TastyBG?tab=readme-ov-file#execu%C3%A7%C3%A3o">Execução</a> •
  <a href="#roadmap">Instruções da linguagem</a> • 
  <a href="#tecnologias">Documentação</a> • 
  <a href="#contribuicao">Gramáticas</a> •
