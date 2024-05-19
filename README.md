@@ -59,7 +59,7 @@
 <p>- Exemplo de comparação:</p>
 
 | Exemplo em uma estrutura If (que será ensinada em breve) |
-|:-----------------:|
+|:-----------------|
 |        oz(varnum < 3){<br>varboo = barca;<br>}       |
 |        oz(varnum nenom "ola"){<br>varboo = real;<br>}       |
 
@@ -152,6 +152,11 @@
 |                    Exemplo                    	|
 |:---------------------------------------------	|
 | tiziu(i < 10){<br>//"Trecho de código"<br>} 	|
+
+
+## Grámatica
+
+<p>Nas grámaticas, tome nota que as funções estarão em <strong>negrito</strong> e os terminais estarão <u>sublinhados</u>.</p>
 
 
 
