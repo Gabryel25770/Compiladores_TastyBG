@@ -50,5 +50,13 @@
 
 ### Inputs e Prints
 #### Input
+<p>Deve ser composto primeiramente por um ID, podendo conter uma atribuição, um sinal de igua "=", depois pela palavra reservada "caption", seguido to tipo da variável que deseja recer, e pra finalizar um abre e fecha parênteses "()". </p>
+<p>- Aqui vai um exemplo:</p>
+
+|           Exemplo apenas com atribuição          |          Exemplo com Declaração          |
+|:------------------------------------------------:|:----------------------------------------:|
+|            vartext = caption atoz ();            |       numz varnum = caption numz ();      |
+
+
 
 
