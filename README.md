@@ -86,6 +86,15 @@
 |:------------------------------------------------|:----------------------------------------|
 |            oz(varnum == 3){<br>//"Trecho de código"<br>}ozak(varnum == 4){<br>//"Trecho de código"<br>}          |       oz(varnum == 3){<br>//"Trecho de código"<br>}ozak(varnum == 4){<br>//"Trecho de código"<br>}ozak(varnum == 5){<br>//"Trecho de código"<br>}     |
 
+#### Else
+<p>Semelhante a sintaxe dos dois anteriores, a palavra reservada é "zak" e não é necessário condição.</p>
+<p>Deve vir após um "If" ou um "Else If", podendo haver só uma repetição, simbolizando o fim da estrutura de repetição.</p>
+
+<p>- Exemplo de implementação:</p>
+
+|          Exemplo com mais de um "Else If"          |
+|:----------------------------------------|
+|       oz(varnum == 3){<br>//"Trecho de código"<br>}ozak(varnum == 4){<br>//"Trecho de código"<br>}ozak(varnum == 5){<br>//"Trecho de código"<br>}zak{<br>//"Trecho de código<br>}     |
 
 
 
