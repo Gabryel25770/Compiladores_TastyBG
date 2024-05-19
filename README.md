@@ -58,7 +58,7 @@
 |            vartext = caption atoz ();            |       numz varnum = caption numz ();     |
 
 #### Print
-<p>Deve ser composto pela palavra reservada "receba", parênteses aberto "(", um valor (numero, booleano, texto ou um ID), Parênteses fechado ")", e finalizado com um ponto e vírgula ";".</p>
+<p>Deve ser composto pela palavra reservada "receba", parênteses aberto "(", um valor (numero, booleano, texto ou um ID), parênteses fechado ")", e finalizado com um ponto e vírgula ";".</p>
 
 <p>- Aqui vai alguns exemplo:</p>
 
@@ -67,6 +67,15 @@
 |          receba(2);         |
 |     receba("Parabéns!");    |
 |       receba(varboo);       |
+
+### If, Else If e Else
+#### If
+<p>Deve ser composta pela palavra reservada "oz", parênteses aberto "(", uma condição (ID ou valor, sinal de comparação, mais um ID ou valor), parêntes fechado ")", chaves aberta "{", estrutura de código, e finalizado por uma chaves fechada "}".</p>
+<p>- Exemplo de implementação</p>
+|           Exemplo          |
+|:---------------------------:|
+|          oz(varnum == 3){ <br /> //"trecho de código" <br />}         |
+
 
 
 
