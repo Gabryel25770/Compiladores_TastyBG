@@ -71,11 +71,19 @@
 ### If, Else If e Else
 #### If
 <p>Deve ser composta pela palavra reservada "oz", parênteses aberto "(", uma condição (ID ou valor, sinal de comparação, mais um ID ou valor), parêntes fechado ")", chaves aberta "{", estrutura de código, e finalizado por uma chaves fechada "}".</p>
-<p>- Exemplo de implementação</p>
+<p>- Exemplo de implementação:</p>
 
 |                    Exemplo                    	|
 |:---------------------------------------------:	|
 | oz(varnum == 3){<br>//"Trecho de código"<br>} 	|
+
+#### Else If
+<p>Semelhante a sintaxe do "If", porém a palavra reservada será "ozak" dessa vez. <br /> Deve haver ao menos um "If" antes de um "Else If", e pode haver outros "Else Ifs", um "Else" ou nada depois.</p>
+
+<p>- Exemplos de implementações:</p>
+|           Exemplo sem nada após          |          Exemplo com mais de um "Else If"          |
+|:------------------------------------------------:|:----------------------------------------:|
+|            oz(varnum == 3){<br>//"Trecho de código"<br>}<br>ozak(varnum == 4){<br>//"Trecho de código"<br>}          |       oz(varnum == 3){<br>//"Trecho de código"<br>}<br>ozak(varnum == 4){<br>//"Trecho de código"<br>}<br>ozak(varnum == 5){<br>//"Trecho de código"<br>}     |
 
 
 
