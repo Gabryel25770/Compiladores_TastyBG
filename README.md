@@ -26,6 +26,45 @@
 <p>- Ao realizar um comentário, seguido de um "//", deve haver uma string entre aspas. Exemplo: (//"comentário").</p>
 
 ## Documentação
+
+### Tokens
+#### Expressão
+
+| Token |                     Significado                      |
+|:-----------------:|:-------------------------------------------------------:|
+|        =       |          Atribuição          |
+|        +       |      Soma     |
+|        -       | Subtração |
+|         /        |       Divisão      |
+|         *        |       Multiplicação      |
+
+<p>- Exemplo de expressão:</p>
+
+| Exemplo |
+|:-----------------:|
+|        varnum = (3+4)/7;       |
+
+#### Comparação
+
+| Token |                     Significado                      |
+|:-----------------:|:-------------------------------------------------------:|
+|        ==       |          Igual          |
+|        <>       |      Diferente     |
+|        <       |      Menor     |
+|        >       |      Maior     |
+|        >=       | Maior Igual |
+|         <=        |       Menor Igual      |
+|         nenom        |       Comparação String      |
+
+<p>- Exemplo de comparação:</p>
+
+| Exemplo em uma estrutura If (que será ensinada em breve) |
+|:-----------------:|
+|        oz(varnum < 3){<br>varboo = barca;<br>}       |
+|        oz(varnum nenom "ola"){<br>varboo = real;<br>}       |
+
+
+
 ### Declaração
 <p>Deve ser composta por uma palavra reservada referente ao valor da váriavel, um nome identificado da variável, um sinal de igual "=", um valor referente a atribuição e encerrado por pontoe vírgula ";".</p>
 <p>- As palavras disponíveis são:</p>
@@ -113,6 +152,7 @@
 |                    Exemplo                    	|
 |:---------------------------------------------	|
 | tiziu(i < 10){<br>//"Trecho de código"<br>} 	|
+
 
 
 
