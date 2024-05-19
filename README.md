@@ -1,8 +1,8 @@
 # Projeto Compiladores: TastyBG
 
 ## Descrição do Projeto
-<p align="center">Esse foi um projeto realizado por um grupo de quatro alunos, do sexto semestre de Ciências da Computação no Centro Universitário FEI, para a matéria de Compiladores.
-A ideia foi ensinar os conceitos por meio de um projeto prático aonde serão aplicados os ensinamentos aprendidos em aula.
+<p align="center">Esse foi um projeto realizado por um grupo de quatro alunos, do sexto semestre de Ciências da Computação no Centro Universitário FEI, para a matéria de Compiladores. <\br>
+A ideia foi ensinar os conceitos por meio de um projeto prático aonde serão aplicados os ensinamentos aprendidos em aula. <\br>
 Essa linguagem foi desenvolvida em JAVA e traduzida também para JAVA, segue a documentação.</p>
 
 <p align="center">
