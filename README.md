@@ -16,19 +16,19 @@
 
 
 ## Execução
-<p align="center">Primeiro desse ser criado um arquivo .txt aonde será desenvolvido seu código em TastyBG, depois deverá ser inserido o path desse arquivo no MainLexer.java antes da execução do próprio, igualmente ao path do arquivo de saída.</p>
-<p align="center">Após a a execução do MainLexer.java, ele irá gerar um arquivo output.java que será compilado e executando com a execução do arquivo run.bat</p>
+<p>Primeiro desse ser criado um arquivo .txt aonde será desenvolvido seu código em TastyBG, depois deverá ser inserido o path desse arquivo no MainLexer.java antes da execução do próprio, igualmente ao path do arquivo de saída.</p>
+<p>Após a a execução do MainLexer.java, ele irá gerar um arquivo output.java que será compilado e executando com a execução do arquivo run.bat</p>
 
 
 ## Instruções da linguagem
-<p align="center">-Não é necessário nenhuma identação, apenas para fins de organização.</p>
-<p align="center">-Todo fim de comando deve conter ";" (ponto e vírgula), com exceção de estruturas de repetição ou condição.</p>
-<p align="center">-Ao realizar um comentário, seguido de um "//", deve haver uma string entre aspas. Exemplo: (//"comentário").</p>
+<p>- Não é necessário nenhuma identação, apenas para fins de organização.</p>
+<p>- Todo fim de comando deve conter ";" (ponto e vírgula), com exceção de estruturas de repetição ou condição.</p>
+<p>- Ao realizar um comentário, seguido de um "//", deve haver uma string entre aspas. Exemplo: (//"comentário").</p>
 
 ## Documentação
 ### Atribuição
-<p align="center">Deve ser composta por uma palavra reservada referente ao valor da váriavel, um nome identificado da variável, um sinal de igual "=", um valor referente a atribuição e encerrado por pontoe vírgula ";".</p>
-<p align="center">-As palavras disponíveis são:</p>
+<p>Deve ser composta por uma palavra reservada referente ao valor da váriavel, um nome identificado da variável, um sinal de igual "=", um valor referente a atribuição e encerrado por pontoe vírgula ";".</p>
+<p>-As palavras disponíveis são:</p>
 
 | Palavra Reservada |                      Tipo do valor                      |
 |:-----------------:|:-------------------------------------------------------:|
