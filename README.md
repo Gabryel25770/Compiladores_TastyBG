@@ -74,7 +74,7 @@
 <p>- Exemplo de implementação:</p>
 
 |                    Exemplo                    	|
-|:---------------------------------------------:	|
+|:---------------------------------------------	|
 | oz(varnum == 3){<br>//"Trecho de código"<br>} 	|
 
 #### Else If
@@ -83,8 +83,8 @@
 <p>- Exemplos de implementações:</p>
 
 |           Exemplo sem nada após          |          Exemplo com mais de um "Else If"          |
-|:------------------------------------------------|:----------------------------------------:|
-|            oz(varnum == 3){<br>//"Trecho de código"<br>}<br>ozak(varnum == 4){<br>//"Trecho de código"<br>}          |       oz(varnum == 3){<br>//"Trecho de código"<br>}<br>ozak(varnum == 4){<br>//"Trecho de código"<br>}<br>ozak(varnum == 5){<br>//"Trecho de código"<br>}     |
+|:------------------------------------------------|:----------------------------------------|
+|            oz(varnum == 3){<br>//"Trecho de código"<br>}ozak(varnum == 4){<br>//"Trecho de código"<br>}          |       oz(varnum == 3){<br>//"Trecho de código"<br>}ozak(varnum == 4){<br>//"Trecho de código"<br>}ozak(varnum == 5){<br>//"Trecho de código"<br>}     |
 
 
 
