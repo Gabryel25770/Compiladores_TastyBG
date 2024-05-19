@@ -26,7 +26,7 @@
 <p>- Ao realizar um comentário, seguido de um "//", deve haver uma string entre aspas. Exemplo: (//"comentário").</p>
 
 ## Documentação
-### Atribuição
+### Declaração
 <p>Deve ser composta por uma palavra reservada referente ao valor da váriavel, um nome identificado da variável, um sinal de igual "=", um valor referente a atribuição e encerrado por pontoe vírgula ";".</p>
 <p>- As palavras disponíveis são:</p>
 
@@ -45,5 +45,10 @@
 |      floq varflo = 6.9;     |
 | atoz vartext = "Boa noite!" |
 |      io varboo = real;      |
+
+<p>* Há casos em que a declaração pode ser feita junto a um input, mas isso será explicado daqui a pouco.</p>
+
+### Inputs e Prints
+#### Input
 
 
