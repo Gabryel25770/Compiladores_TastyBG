@@ -184,11 +184,11 @@
 
 <p>Nas grámaticas, tome nota que as funções estarão em <strong>negrito</strong> e os terminais estarão "entre aspas".</p>
 <br/>
-<p><Strong>Recurção</Strong> →	<Strong>If</Strong> | <Strong>Declaração</Strong> | <Strong>For</Strong> | <Strong>While</Strong> | <Strong>Print</Strong> | <Strong>Comentário</Strong> | $ | ε </p>
-<p><Strong>If</Strong> → "oz" "(" <strong>Condição</strong> ")" "{" <strong>Recurção</strong> "}" <Strong>IfComplemento</Strong> </p>
+<p><Strong>Recursão</Strong> →	<Strong>If</Strong> | <Strong>Declaração</Strong> | <Strong>For</Strong> | <Strong>While</Strong> | <Strong>Print</Strong> | <Strong>Comentário</Strong> | $ | ε </p>
+<p><Strong>If</Strong> → "oz" "(" <strong>Condição</strong> ")" "{" <strong>Recursão</strong> "}" <Strong>IfComplemento</Strong> </p>
 <p> <Strong>IfComplemento</Strong> → <strong>ElseIf</strong> <Strong>IfComplemento</Strong> | <strong>Else</strong> <Strong>IfComplemento</Strong> | ε</p>
-<p><strong>ElseIf</strong> → "ozak" "(" <strong>Condição</strong> ")" "{" <strong>Recurção</strong> "}"</p>
-<p><strong>Else</strong> → "zak" "{" <strong>Recursção</strong> "}"</p>
+<p><strong>ElseIf</strong> → "ozak" "(" <strong>Condição</strong> ")" "{" <strong>Recursão</strong> "}"</p>
+<p><strong>Else</strong> → "zak" "{" <strong>Recursão</strong> "}"</p>
 <p><strong>Condição</strong> → "ID" (<strong>Operador</strong> <strong>Valor</strong> | <strong>OperadorString</strong>) </p>
 <p><strong>OperadorString</strong> → "nenom" <strong>ValorOperadorString</strong></p>
 <p><strong>ValorOperadorString</strong> → "ID" | "String"</p>
