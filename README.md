@@ -5,6 +5,11 @@
 <p> A ideia foi ensinar os conceitos por meio de um projeto prático aonde serão aplicados os ensinamentos aprendidos em aula.</p>
 <p> Essa linguagem foi desenvolvida em JAVA e traduzida também para JAVA, segue a documentação.</p>
 
+<br/>
+<br/>
+<br/>
+<br/>
+
 <p align="center">
  <a href="https://github.com/Gabryel25770/Compiladores_TastyBG?tab=readme-ov-file#execu%C3%A7%C3%A3o">Execução</a> •
  <a href="#roadmap">Instruções da linguagem</a> • 
