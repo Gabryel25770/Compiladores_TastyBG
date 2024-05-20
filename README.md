@@ -248,7 +248,7 @@ receba(boo);<br/>
 |        Gabryel Lourenço Maciel de Morais       |          22.221.021-3          |
 |        Giovanna Borges Tamagnini       |      2.221.016-3     |
 |        Flavio Eugenio de Oliveira Neto       | 22.221.027-0 |
-|         Thiago Ayres Kimura        |       22.221.      |
+|         Thiago Ayres Kimura        |       22.221.045-2      |
 
 
 
