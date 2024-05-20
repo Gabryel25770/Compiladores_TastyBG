@@ -171,7 +171,7 @@
 <p><strong>ValorComplemento</strong> → <strong>OperadorMatemático</strong> <Strong>Valor</Strong></p>
 <p><strong>OperadorMatemático</strong> → "+" | "/" | "*" | "-"</p>
 <p><strong>Declaração</strong> → <strong>Tipos</strong> <strong>Expressão</strong></p>
-<p><string>Tipos</string> → "io" | "numz" | "floq" | "atoz"</p>
+<p><strong>Tipos</strong> → "io" | "numz" | "floq" | "atoz"</p>
 <p><strong>Expressão</strong> → "ID" <strong>ValorNaExpressão</strong> ";"</p> 
 <p><strong>ValorNaExpressão</strong> → "=" (<strong>Valor</strong> | <strong>Input</strong>) | "++" | "--"</p>
 <p><strong>Input</strong> → "caption" <strong>Tipos</strong> "()"</p>
