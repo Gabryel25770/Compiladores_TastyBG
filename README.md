@@ -20,7 +20,7 @@
 <br/>
 
 ## Execução
-<p>Primeiro desse ser criado um arquivo .txt na pasta src aonde será desenvolvido seu código em TastyBG, depois deverá ser inserido o path desse arquivo no MainLexer.java antes da execução do próprio, igualmente ao path do arquivo de saída, que também deve ser o src.</p>
+<p>Primeiro desse ser escrito seu código em TastyBG no arquivo.txt localizado na pasta src do projeto, depois deverá ser inserido o path desse arquivo.txt no MainLexer.java antes da execução do próprio, igualmente ao path do arquivo de saída, que também deve ser o src e deve possuir o nome de output.java.</p>
 <p>Depois deverá ser executado o arquivo run.bat dentro dessa pasta src.</p>
 
 <br/>
@@ -210,32 +210,30 @@
 <br/>
 
 ## Exemplo de Código 
-<p>//"Exemplo"<br/>
-<br/>
-atoz eba = caption atoz();<br/>
-numz boo = 1;<br/>
-<br/>
-oz(eba nenom "oi"){<br/>
-	&emsp; boo = 2;<br/>
-}ozak(eba nenom "tchau"){<br/>
-	&emsp; boo = 3;<br/>
-}ozak(eba nenom "sla"){<br/>
-	&emsp; boo = 4;<br/>
-}zak{<br/>
-	&emsp; boo = (5+11)/2;<br/>
-}<br/>
-<br/>
-roof(numz i = 0; i < 10; i++){<br/>
-	&emsp; boo++;<br/>
-}<br/>
-<br/>
-io var = barca;<br/>
-tiziu(var <> real){<br/>
-	&emsp; boo = boo + 2 - 4;<br/>
-	&emsp; var = real;<br/>
-}<br/>
-<br/>
-receba(boo);<br/>
+<p>//"Exemplo de um código que mostre a sequência de Fibonacci"<br>
+<br>
+numz n = 10;<br>
+<br>
+numz a = 0;<br>
+numz b = 1;<br>
+<br>
+oz(n > 0){<br>
+	&emsp; receba("Primeiro número da sequência:");<br>
+	&emsp; receba(a);<br>
+}<br>
+oz(n > 1){<br>
+	&emsp; receba("Próximo número da sequência:");<br>
+	&emsp; receba(b);<br>
+}<br>
+<br>
+roof(numz i = 2; i < n; i++){<br>
+	&emsp; numz next = a +b;<br>
+	&emsp; receba("Próximo número da sequência:");<br>
+	&emsp; receba(next);<br>
+	<br>
+	&emsp; a = b;<br>
+	&emsp; b = next;<br>
+}
 </p>
 
 <br/>
