@@ -156,7 +156,29 @@
 
 ## Grámatica
 
-<p>Nas grámaticas, tome nota que as funções estarão em <strong>negrito</strong> e os terminais estarão <u>sublinhados</u>.</p>
+<p>Nas grámaticas, tome nota que as funções estarão em <strong>negrito</strong> e os terminais estarão "entre aspas".</p>
+
+<p><Strong>Recurção</Strong> →	<Strong>If</Strong> | <Strong>Declaração</Strong> | <Strong>For</Strong> | <Strong>While</Strong> | <Strong>Print</Strong> | <Strong>Comentário</Strong> | $ | ε </p>
+<p><Strong>If</Strong> → "oz" "(" <strong>Condição</strong> ")" "{" <strong>Recurção</strong> "}" <Strong>If Complemento</Strong> </p>
+<p> <Strong>If Complemento</Strong> → <strong>Else If</strong> <Strong>If Complemento</Strong> | <strong>Else</strong> <Strong>If Complemento</Strong> | ε</p>
+<p><strong>Else If</strong> → "ozak" "(" <strong>Condição</strong> ")" "{" <strong>Recurção</strong> "}"</p>
+<p><strong>Else</strong> → "zak" "{" <strong>Recursção</strong> "}"</p>
+<p><strong>Condição</strong> → "ID" (<strong>Operador</strong> <strong>Valor</strong> | <strong>Operador String</strong>) </p>
+<p><strong>Operador String</strong> → "nenom" <strong>Valor Operador String</strong></p>
+<p><strong>Valor Operador String</strong> → "ID" | "String"</p>
+<p><strong>Operador</strong> → ">" | "<" | "==" | ">=" | "<=" | "<>"</p>
+<p><strong>Valor</strong> → ("ID" | "Numero" | "Flutuante" | "String" | "Boolean" | "(" <strong>Valor</strong> ")") <strong>Valor Complemento</strong></p>
+<p><strong>Valor Complemento</strong> → <strong>Operador Matemático</strong> <Strong>Valor</Strong></p>
+<p><strong>Operador Matemático</strong> → "+" | "/" | "*" | "-"</p>
+<p><strong>Declaração</strong> → <strong>Tipos</strong> <strong>Expressão</strong></p>
+<p><string>Tipos</string> → "io" | "numz" | "floq" | "atoz"</p>
+<p><strong>Expressão</strong> → "ID" <strong>Valor Na Expressão</strong></p> ":"
+<p><strong>Valor Na Expressão</strong> → "=" (<strong>Valor</strong> | <strong>Input</strong>) | "++" | "--"</p>
+<p><strong>Input</strong> → "caption" <strong>Tipos</strong> "()"</p>
+<p><strong>For</strong> → "roof" "(" <strong>Declaração</strong> ";" <strong>Condição</strong> ";" <Strong>Expressão</Strong> ")" "{" <strong>Recursão</strong> "}"</p>
+<p><strong>While</strong> → "tiziu" "(" <strong>Condição</strong> ")" "{" <strong>Recursão</strong> "}"</p>
+<p><strong>Print</strong> → "receba" "(" <strong>Valor</strong> ")" ";" </p>
+<p><strong>Comentário</strong> → "//" "String"</p>
 
 
 
