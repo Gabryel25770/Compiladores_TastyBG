@@ -141,7 +141,7 @@
 
 |           Exemplo sem nada após          |          Exemplo com mais de um "Else If"          |
 |:------------------------------------------------|:----------------------------------------|
-|            oz(varnum == 3){<br>&emsp; //"Trecho de código"<br>}ozak(varnum == 4){<br>//"Trecho de código"<br>}          |       oz(varnum == 3){<br>&emsp; //"Trecho de código"<br>}ozak(varnum == 4){<br>&emsp; //"Trecho de código"<br>}ozak(varnum == 5){<br>&emsp; //"Trecho de código"<br>}     |
+|            oz(varnum == 3){<br>&emsp; //"Trecho de código"<br>}ozak(varnum == 4){<br>&emsp; //"Trecho de código"<br>}          |       oz(varnum == 3){<br>&emsp; //"Trecho de código"<br>}ozak(varnum == 4){<br>&emsp; //"Trecho de código"<br>}ozak(varnum == 5){<br>&emsp; //"Trecho de código"<br>}     |
 
 <br/>
 
