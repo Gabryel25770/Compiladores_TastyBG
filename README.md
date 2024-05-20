@@ -4,12 +4,7 @@
 <p> Esse foi um projeto realizado por um grupo de quatro alunos, do sexto semestre de Ciências da Computação no Centro Universitário FEI, para a matéria de Compiladores.</p>
 <p> A ideia foi ensinar os conceitos por meio de um projeto prático aonde serão aplicados os ensinamentos aprendidos em aula.</p>
 <p> Essa linguagem foi desenvolvida em JAVA e traduzida também para JAVA, segue a documentação.</p>
-
 <br/>
-<br/>
-<br/>
-<br/>
-
 <p align="center">
  <a href="https://github.com/Gabryel25770/Compiladores_TastyBG?tab=readme-ov-file#execu%C3%A7%C3%A3o">Execução</a> •
  <a href="#roadmap">Instruções da linguagem</a> • 
@@ -18,20 +13,20 @@
  <a href="#contribuicao">Exemplo de Código</a> •
  <a href="#licenc-a">Autores</a>  
 </p>
-
-
+<br/>
+<br/>
 ## Execução
 <p>Primeiro desse ser criado um arquivo .txt aonde será desenvolvido seu código em TastyBG, depois deverá ser inserido o path desse arquivo no MainLexer.java antes da execução do próprio, igualmente ao path do arquivo de saída.</p>
 <p>Após a a execução do MainLexer.java, ele irá gerar um arquivo output.java que será compilado e executando com a execução do arquivo run.bat</p>
-
-
+<br/>
+<br/>
 ## Instruções da linguagem
 <p>- Não é necessário nenhuma identação, apenas para fins de organização.</p>
 <p>- Todo fim de comando deve conter ";" (ponto e vírgula), com exceção de estruturas de repetição ou condição.</p>
 <p>- Ao realizar um comentário, seguido de um "//", deve haver uma string entre aspas. Exemplo: (//"comentário").</p>
-
+<br/>
+<br/>
 ## Documentação
-
 ### Tokens
 #### Expressão
 
@@ -49,6 +44,7 @@
 |:-----------------:|
 |        varnum = (3+4)/7;       |
 
+<br/>
 #### Comparação
 
 | Token |                     Significado                      |
@@ -67,9 +63,7 @@
 |:-----------------|
 |        oz(varnum < 3){<br>varboo = barca;<br>}       |
 |        oz(varnum nenom "ola"){<br>varboo = real;<br>}       |
-
-
-
+<br/>
 ### Declaração
 <p>Deve ser composta por uma palavra reservada referente ao valor da váriavel, um nome identificado da variável, um sinal de igual "=", um valor referente a atribuição e encerrado por pontoe vírgula ";".</p>
 <p>- As palavras disponíveis são:</p>
@@ -91,7 +85,7 @@
 |      io varboo = real;      |
 
 <p>* Há casos em que a declaração pode ser feita junto a um input, mas isso será explicado daqui a pouco.</p>
-
+<br/>
 ### Inputs e Prints
 #### Input
 <p>Deve ser composto primeiramente por um ID, podendo conter uma atribuição, um sinal de igua "=", depois pela palavra reservada "caption", seguido to tipo da variável que deseja recer, e pra finalizar um abre e fecha parênteses "()". </p>
@@ -100,7 +94,7 @@
 |           Exemplo apenas com atribuição          |          Exemplo com Declaração          |
 |:------------------------------------------------:|:----------------------------------------:|
 |            vartext = caption atoz ();            |       numz varnum = caption numz ();     |
-
+<br/>
 #### Print
 <p>Deve ser composto pela palavra reservada "receba", parênteses aberto "(", um valor (numero, booleano, texto ou um ID), parênteses fechado ")", e finalizado com um ponto e vírgula ";".</p>
 
@@ -111,7 +105,7 @@
 |          receba(2);         |
 |     receba("Parabéns!");    |
 |       receba(varboo);       |
-
+<br/>
 ### If, Else If e Else
 #### If
 <p>Deve ser composta pela palavra reservada "oz", parênteses aberto "(", uma condição (ID ou valor, sinal de comparação, mais um ID ou valor), parêntes fechado ")", chaves aberta "{", estrutura de código, e finalizado por uma chaves fechada "}".</p>
@@ -120,7 +114,7 @@
 |                    Exemplo                    	|
 |:---------------------------------------------	|
 | oz(varnum == 3){<br>//"Trecho de código"<br>} 	|
-
+<br/>
 #### Else If
 <p>Semelhante a sintaxe do "If", porém a palavra reservada será "ozak" dessa vez. <br /> Deve haver ao menos um "If" antes de um "Else If", e pode haver outros "Else Ifs", um "Else" ou nada depois.</p>
 
@@ -129,7 +123,7 @@
 |           Exemplo sem nada após          |          Exemplo com mais de um "Else If"          |
 |:------------------------------------------------|:----------------------------------------|
 |            oz(varnum == 3){<br>//"Trecho de código"<br>}ozak(varnum == 4){<br>//"Trecho de código"<br>}          |       oz(varnum == 3){<br>//"Trecho de código"<br>}ozak(varnum == 4){<br>//"Trecho de código"<br>}ozak(varnum == 5){<br>//"Trecho de código"<br>}     |
-
+<br/>
 #### Else
 <p>Semelhante a sintaxe dos dois anteriores, a palavra reservada é "zak" e não é necessário condição.</p>
 <p>Deve vir após um "If" ou um "Else If", podendo haver só uma repetição, simbolizando o fim da estrutura de repetição.</p>
@@ -139,7 +133,7 @@
 |          Exemplo          |
 |:----------------------------------------|
 |       oz(varnum == 3){<br>//"Trecho de código"<br>}ozak(varnum == 4){<br>//"Trecho de código"<br>}zak{<br>//"Trecho de código<br>}     |
-
+<br/>
 ### For
 <p>Deve ser composto pela palavra reservada "roof", parênteses aberto "(", uma declaração como já foi ensinado (não podendo haver inputs nessa declaração), ponto e vírgula ";", uma condição, mais um ponto e vírgula, uma expressão matemática(geralmente um incremento ou decremento), parênteses fechado ")", chaves aberta "{", seu trecho de código, e finalizado com chaves fechada "}".</p>
 
@@ -148,7 +142,7 @@
 |                    Exemplo                    	|
 |:---------------------------------------------	|
 | roof(numz i = 0; i < 10; i = i + 1){<br>//"Trecho de código"<br>} 	|
-
+<br/>
 ### While
 <p>Deve ser composto pela palavra reservada "tiziu", parênteses aberto "(", uma condição, parênteses fechado ")", chaves aberta "{", seu trecho de código, e finalizado com chaves fechada "}".</p>
 
@@ -157,12 +151,12 @@
 |                    Exemplo                    	|
 |:---------------------------------------------	|
 | tiziu(i < 10){<br>//"Trecho de código"<br>} 	|
-
-
+<br/>
+<br/>
 ## Grámatica
 
 <p>Nas grámaticas, tome nota que as funções estarão em <strong>negrito</strong> e os terminais estarão "entre aspas".</p>
-
+<br/>
 <p><Strong>Recurção</Strong> →	<Strong>If</Strong> | <Strong>Declaração</Strong> | <Strong>For</Strong> | <Strong>While</Strong> | <Strong>Print</Strong> | <Strong>Comentário</Strong> | $ | ε </p>
 <p><Strong>If</Strong> → "oz" "(" <strong>Condição</strong> ")" "{" <strong>Recurção</strong> "}" <Strong>IfComplemento</Strong> </p>
 <p> <Strong>IfComplemento</Strong> → <strong>ElseIf</strong> <Strong>IfComplemento</Strong> | <strong>Else</strong> <Strong>IfComplemento</Strong> | ε</p>
