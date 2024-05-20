@@ -20,8 +20,8 @@
 <br/>
 
 ## Execução
-<p>Primeiro desse ser criado um arquivo .txt aonde será desenvolvido seu código em TastyBG, depois deverá ser inserido o path desse arquivo no MainLexer.java antes da execução do próprio, igualmente ao path do arquivo de saída.</p>
-<p>Após a a execução do MainLexer.java, ele irá gerar um arquivo output.java que será compilado e executando com a execução do arquivo run.bat</p>
+<p>Primeiro desse ser criado um arquivo .txt na pasta src aonde será desenvolvido seu código em TastyBG, depois deverá ser inserido o path desse arquivo no MainLexer.java antes da execução do próprio, igualmente ao path do arquivo de saída, que também deve ser o src.</p>
+<p>Depois deverá ser executado o arquivo run.bat dentro dessa pasta src.</p>
 
 <br/>
 <br/>
@@ -209,8 +209,7 @@
 <br/>
 <br/>
 
-##Exemplo de Código 
-
+## Exemplo de Código 
 <p>//"Exemplo"<br/>
 <br/>
 atoz eba = caption atoz();<br/>
@@ -242,7 +241,7 @@ receba(boo);<br/>
 <br/>
 <br/>
 
-##Autores
+## Autores
 
 | Nome |                     RA                      |
 |:-----------------:|:-------------------------------------------------------:|
