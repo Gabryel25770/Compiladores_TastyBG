@@ -86,7 +86,7 @@
 |        atoz       | Caracteres alfanuméricos ["olá", "senha123", "14", ...] |
 |         io        |       Valores booleanos [real(true), barca(false)]      |
 
-<p>- Aqui vai alguns exemplo:</p>
+<p>- Aqui vão alguns exemplo:</p>
 
 |           Exemplos          |
 |:---------------------------:|
@@ -102,7 +102,7 @@
 ### Inputs e Prints
 #### Input
 <p>Deve ser composto primeiramente por um ID, podendo conter uma atribuição, um sinal de igua "=", depois pela palavra reservada "caption", seguido to tipo da variável que deseja recer, e pra finalizar um abre e fecha parênteses "()". </p>
-<p>- Aqui vai dois exemplo:</p>
+<p>- Aqui vão dois exemplo:</p>
 
 |           Exemplo apenas com atribuição          |          Exemplo com Declaração          |
 |:------------------------------------------------:|:----------------------------------------:|
@@ -113,7 +113,7 @@
 #### Print
 <p>Deve ser composto pela palavra reservada "receba", parênteses aberto "(", um valor (numero, booleano, texto ou um ID), parênteses fechado ")", e finalizado com um ponto e vírgula ";".</p>
 
-<p>- Aqui vai alguns exemplo:</p>
+<p>- Aqui vão alguns exemplo:</p>
 
 |           Exemplos          |
 |:---------------------------:|
@@ -246,7 +246,7 @@ receba(boo);<br/>
 | Nome |                     RA                      |
 |:-----------------:|:-------------------------------------------------------:|
 |        Gabryel Lourenço Maciel de Morais       |          22.221.021-3          |
-|        Giovanna Borges Tamagnini       |      2.221.016-3     |
+|        Giovanna Borges Tamagnini       |      22.221.016-3     |
 |        Flavio Eugenio de Oliveira Neto       | 22.221.027-0 |
 |         Thiago Ayres Kimura        |       22.221.045-2      |
 
