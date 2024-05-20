@@ -227,7 +227,7 @@ oz(n > 1){<br>
 }<br>
 <br>
 roof(numz i = 2; i < n; i++){<br>
-	&emsp; numz next = a +b;<br>
+	&emsp; numz next = a + b;<br>
 	&emsp; receba("Próximo número da sequência:");<br>
 	&emsp; receba(next);<br>
 	<br>
