@@ -210,29 +210,30 @@
 <br/>
 
 ##Exemplo de Código 
+
 <p>//"Exemplo"<br/>
 <br/>
 atoz eba = caption atoz();<br/>
 numz boo = 1;<br/>
 <br/>
 oz(eba nenom "oi"){<br/>
-	&emsp boo = 2;<br/>
+	&emsp; boo = 2;<br/>
 }ozak(eba nenom "tchau"){<br/>
-	&emsp boo = 3;<br/>
+	&emsp; boo = 3;<br/>
 }ozak(eba nenom "sla"){<br/>
-	&emsp boo = 4;<br/>
+	&emsp; boo = 4;<br/>
 }zak{<br/>
-	&emsp boo = (5+11)/2;<br/>
+	&emsp; boo = (5+11)/2;<br/>
 }<br/>
 <br/>
 roof(numz i = 0; i < 10; i++){<br/>
-	&emsp boo++;<br/>
+	&emsp; boo++;<br/>
 }<br/>
 <br/>
 io var = barca;<br/>
 tiziu(var <> real){<br/>
-	&emsp boo = boo + 2 - 4;<br/>
-	&emsp var = real;<br/>
+	&emsp; boo = boo + 2 - 4;<br/>
+	&emsp; var = real;<br/>
 }<br/>
 <br/>
 receba(boo);<br/>
