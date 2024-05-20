@@ -70,8 +70,8 @@
 
 | Exemplo em uma estrutura If (que será ensinada em breve) |
 |:-----------------|
-|        oz(varnum < 3){<br>varboo = barca;<br>}       |
-|        oz(varnum nenom "ola"){<br>varboo = real;<br>}       |
+|        oz(varnum < 3){<br>&emsp; varboo = barca;<br>}       |
+|        oz(varnum nenom "ola"){<br>&emsp; varboo = real;<br>}       |
 
 <br/>
 
@@ -130,7 +130,7 @@
 
 |                    Exemplo                    	|
 |:---------------------------------------------	|
-| oz(varnum == 3){<br>//"Trecho de código"<br>} 	|
+| oz(varnum == 3){<br>&emsp; //"Trecho de código"<br>} 	|
 
 <br/>
 
@@ -141,7 +141,7 @@
 
 |           Exemplo sem nada após          |          Exemplo com mais de um "Else If"          |
 |:------------------------------------------------|:----------------------------------------|
-|            oz(varnum == 3){<br>//"Trecho de código"<br>}ozak(varnum == 4){<br>//"Trecho de código"<br>}          |       oz(varnum == 3){<br>//"Trecho de código"<br>}ozak(varnum == 4){<br>//"Trecho de código"<br>}ozak(varnum == 5){<br>//"Trecho de código"<br>}     |
+|            oz(varnum == 3){<br>&emsp; //"Trecho de código"<br>}ozak(varnum == 4){<br>//"Trecho de código"<br>}          |       oz(varnum == 3){<br>&emsp; //"Trecho de código"<br>}ozak(varnum == 4){<br>&emsp; //"Trecho de código"<br>}ozak(varnum == 5){<br>&emsp; //"Trecho de código"<br>}     |
 
 <br/>
 
@@ -153,7 +153,7 @@
 
 |          Exemplo          |
 |:----------------------------------------|
-|       oz(varnum == 3){<br>//"Trecho de código"<br>}ozak(varnum == 4){<br>//"Trecho de código"<br>}zak{<br>//"Trecho de código<br>}     |
+|       oz(varnum == 3){<br>&emsp; //"Trecho de código"<br>}ozak(varnum == 4){<br>&emsp; //"Trecho de código"<br>}zak{<br>&emsp; //"Trecho de código<br>}     |
 
 <br/>
 
@@ -164,7 +164,7 @@
 
 |                    Exemplo                    	|
 |:---------------------------------------------	|
-| roof(numz i = 0; i < 10; i = i + 1){<br>//"Trecho de código"<br>} 	|
+| roof(numz i = 0; i < 10; i = i + 1){<br>&emsp; //"Trecho de código"<br>} 	|
 
 <br/>
 
@@ -175,7 +175,7 @@
 
 |                    Exemplo                    	|
 |:---------------------------------------------	|
-| tiziu(i < 10){<br>//"Trecho de código"<br>} 	|
+| tiziu(i < 10){<br>&emsp; //"Trecho de código"<br>} 	|
 
 <br/>
 <br/>
