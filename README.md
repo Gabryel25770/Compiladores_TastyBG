@@ -10,7 +10,7 @@
 <p align="center">
  <a href="https://github.com/Gabryel25770/Compiladores_TastyBG?tab=readme-ov-file#execu%C3%A7%C3%A3o">Execução</a> •
  <a href="https://github.com/Gabryel25770/Compiladores_TastyBG/blob/main/README.md#instru%C3%A7%C3%B5es-da-linguagem">Instruções da linguagem</a> • 
- <a href="#tecnologias">Documentação</a> • 
+ <a href="https://github.com/Gabryel25770/Compiladores_TastyBG?tab=readme-ov-file#documenta%C3%A7%C3%A3o">Documentação</a> • 
  <a href="#contribuicao">Gramáticas</a> •
  <a href="#contribuicao">Exemplo de Código</a> •
  <a href="#licenc-a">Autores</a>  
